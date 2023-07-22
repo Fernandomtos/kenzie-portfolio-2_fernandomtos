@@ -46,11 +46,10 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
-                  My Whatsapp
+                  Meu Whatsapp
                 </Text>
                 <Text color="grey2" type="body2">
-                  I'm available for a voice chat, let's about creativity
-                  together?
+                  Estou a disposição para compartilharmos conhecimento !
                 </Text>
                 <Text
                   as="a"
@@ -59,7 +58,7 @@ export const Contacts = () => {
                   target="_blank"
                   href={`https://api.whatsapp.com/send?phone=+55+${userData.whatsappNumber}&text=Ol%C3%A1%2C%20venho%20por%20meio%20do%20seu%20portf%C3%B3lio%20na%20internet%2C%20gostaria%20de%20conhecer%20melhor%20seus%20servi%C3%A7os`}
                 >
-                  Talk Now
+                  Iniciar Conversa
                 </Text>
               </ContactCardContent>
             </ContactCard>
@@ -70,10 +69,10 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
-                  My email
+                  Meu Email
                 </Text>
                 <Text color="grey2" type="body2">
-                  Send me an email reporting feedbacks, suggestions and ideas
+                  Envie seu email relatando feedbacks, sugestões e ideias
                 </Text>
 
                 <Text
@@ -86,7 +85,7 @@ export const Contacts = () => {
                     (window.location.href = "mailto:nekelpatrick.com")
                   }
                 >
-                  Send me an email
+                  Enviar email
                 </Text>
               </ContactCardContent>
             </ContactCard>
@@ -96,11 +95,12 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
-                  My LinkedIn
+                  Meu LinkedIn
                 </Text>
                 <Text color="grey2" type="body2">
-                  We can create more constant interactions as well as a sharing
-                  network
+                  No linkedIn sempre estou compartilhando meus processos diários
+                  para desenvolver esses projetos e estou disposto a trocar
+                  algumas ideias por lá
                 </Text>
                 <Text
                   as="a"
@@ -109,7 +109,7 @@ export const Contacts = () => {
                   target="_blank"
                   href={linkedInUrl}
                 >
-                  Go to LinkedIn now
+                  Acessar perfil no LinkedIn
                 </Text>
               </ContactCardContent>
             </ContactCard>
